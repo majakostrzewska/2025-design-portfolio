@@ -1,2 +1,2 @@
-# 2025-design-portfolio
-My 2025 Portfolio
+# 2025-design-potfolio
+Personal Portfolio for Glenn Evans

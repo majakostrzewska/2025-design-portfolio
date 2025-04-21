@@ -1,0 +1,9 @@
+title: My Portfolio
+name: Maja Kostrzewska
+email: m909@myscc.ca
+baseurl: "/2025-design-portfolio"
+
+collections:
+  design:
+    output: true
+    permalink: /:collection/:path/
