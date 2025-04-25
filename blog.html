@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>2025 Design Portfolio</title>
     <style>
+		@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+		
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Roboto", sans-serif;
+			color: #171619;
             display: flex;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
             height: 100vh;
         }
+		
+		h1, h2, h3, h4, h5, h6 {
+  		font-family: "Italiana", sans-serif;
+  		font-weight: 400;
+  		font-style: normal;
+		color: #ffffff;
+}
+		.email {
+			color: #ffffff;
+			font-weight: 200;
+		}
+		
         .sidebar {
             width: 300px;
-            background: #fff;
+            background: #24285B;
             padding: 20px;
             text-align: center;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -29,6 +45,7 @@
             justify-content: center;
         }
         .profile-pic {
+			
             width: 150px;
             height: 150px;
             border-radius: 50%;
@@ -52,29 +69,94 @@
         .card {
             width: 220px;
             height: 300px;
-            background: white;
+            background: #9784D6;
             padding: 15px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
+		
+		
+		.fa {
+ 		 	padding: 10px;
+ 		 	font-size: 30px;
+		 	width: 20px;
+ 		 	text-align: center;
+ 		 	text-decoration: none;
+		 	margin: 5px 2px;
+			border-radius: 50%;
+		}
+
+		.fa:hover {
+   		 	opacity: 0.7;
+		}
+
+		.fa-facebook {
+			background: #3B5998;
+  			color: white;
+		}
+
+		.fa-twitter {
+  			background: #55ACEE;
+  			color: white;
+		}
+		.fa-instagram {
+  			background:#F13EB3;
+  			color: white;
+		}
+		
+		.article {
+  		font-family: "Italiana", sans-serif;
+  		font-weight: 300;
+  		font-style: normal;
+		color: #ffffff;
+		font-size: 22px;
+		}
+		
+		.article_p {
+		font-family: "Roboto", sans-serif;
+  		font-weight: 300;
+  		font-style: normal;
+		color: #ffffff;
+		font-size: 13px;
+		}
+		
     </style>
 </head>
 <body>
     <div class="sidebar">
-        <div class="profile-pic"></div>
+        <div class="profile-pic">
+			<img class="profile-pic" src="../../../Desktop/portfolio-main/style_guide/img/profil_pic.jpg">
+		</div>
         <h2>Maja Kostrzewska</h2>
-        <p>user@example.com</p>
+        <p class="email">w0845945@myscc.ca</p>
         <div class="social-icons">
-            <a href="#">🔵</a>
-            <a href="#">🟠</a>
-            <a href="#">🟣</a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
         </div>
     </div>
     <div class="content">
-        <div class="card">Article 1</div>
-        <div class="card">Article 2</div>
-        <div class="card">Article 3</div>
-        <div class="card">Article 4</div>
+        
+        <div class="card">
+			<h3 class="article">Design</h3>
+			<p class="article_p">My design portfolio.</p>
+		
+		</div>
+        <div class="card">
+			<h3 class="article">Illustration</h3>
+			<p class="article_p">My illustration portfolio.</p>
+		
+		</div>
+        <div class="card">
+			<h3 class="article">Web, Multimedia and Animation</h3>
+			<p class="article_p">My web and motion portfolio.</p>
+		
+		</div>
+		<div class="card">
+			<h3 class="article">ArtSpeak Gallery</h3>
+			<p class="article_p">My journey with volunteering for ACWR.</p>
+		
+		</div>
     </div>
 </body>
 </html>
